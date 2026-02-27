@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Django Task</title>
+</head>
+<body>
+
+<nav style="background-color:darkblue; padding:10px;">
+    <a href="" style="color:white; margin-right:15px; text-decoration:none;">Home</a>
+    <a href="{% url 'colleges' %}" style="color:white; margin-right:15px; text-decoration: none;">Colleges</a>
+    <a href="{% url 'students' %}" style="color:white; margin-right:15px; text-decoration: none;">Students</a>
+    <a href="{% url 'address' %}" style="color:white; margin-right:15px; text-decoration:none;">Address</a>
+    <a href="{% url 'contact' %}" style="color:white; margin-right:15px; text-decoration: none;">Contact Us</a>
+
+</nav>
+
+<br>
+
+{% block content %}
+{% endblock %}
+
+
+</body>
+</html>
