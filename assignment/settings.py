@@ -119,6 +119,7 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS=[
     BASE_DIR/"static"
 ]
+STATICROOT='home/abhinaya2408/Django-Activity'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
